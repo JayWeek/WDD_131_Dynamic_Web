@@ -6,36 +6,92 @@
     <title>WDD 131 – Dynamic Web Fundamentals - TANG GERALD JUNIOR</title>
     <meta name="description" content="WDD 131 – Dynamic Web Fundamentals TANG GERALD JUNIOR Portfolio">
     <meta name="author" content="TANG GERALD">
+
+
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer>  </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
     <header>
-        <h1>WDD 131: Dynamic Web Fundamentals - <span class="highlight">Tang Gerald Jr</span></h1>
+        <div class="header-title-wrapper">
+          <h1>WDD 131: Dynamic Web Fundamentals -<span class="highlight-name" >Tang Gerald Jr.</span> </h1>
+        </div>
+      
         <nav>
-            <a href="">Linkedln</a>
-            <a href="">Canvas</a>
-            <a href="">Scripture</a>
-            <a href="">Final Project</a>
+          <a href="https://www.linkedin.com/feed/">LinkedIn</a>
+          <a href=" https://byupw.instructure.com/">Canvas</a>
+          <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/ps/121?lang=eng">Scripture</a>
+          <a href="#">Final Project</a>
         </nav>
-    </header>
+      </header>
+      
 
     <main>
         <section class="card left">
+            <h2>About Me</h2>
+          
+            <div class="container">
+              <div class="left">
+                <p>My name is Gerald. Am 19 years of age born in Uganda, though am Cameroonian. I live with
+                  my family in Kampala, the capital of Uganda. I am currently a student at BYU pursuing an online degree in software development.
+                  I enjoy my free time by investing it in learning new skills such as music production. I love listening to music
+                  so much that I just had to delve in and actually start making some of my own. But above all, I love my family.</p>
+          
+                <h3 class="location-heading">Kampala, Uganda</h3>
+          
+                <div class="sub-container">
+                  <div class="official-flag">
+                    <img src="images/Flag_of_Uganda..jpg" alt="Flag of Uganda">
+                    <p>Official flag of Uganda.</p>
+                  </div>
+          
+                  <div class="aboutUg">
+                    <p>
+                      Uganda, known as the "Pearl of Africa," is a landlocked country in East Africa rich in natural beauty and biodiversity.
+                      It features lush green landscapes, the source of the Nile River, and a vibrant cultural heritage. Kampala, its capital, 
+                      is a bustling city with a blend of modern development and traditional roots.
+                    </p>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="right">
+                <img src="images/obama1.jpg" alt="My image">
+              </div>
+            </div>
+          </section>
+          
 
-        </section>
-
-        <section class="card">
-            
+        <section class="card right">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="">Dev.to Community</a></li>
+                <li><a href="">Smashing magazine</a></li>
+                <li><a href="">CSS Tricks</a></li>
+                <li><a href="">W3 Schools</a></li>
+                <li><a href="">Udemy</a></li>
+                <li><a href="">Image Placeholder</a></li>
+            </ul>
         </section>
 
     </main>
 
     <footer>
-        <p>
-            &copy; <span id="currentyear"></span> | Tang Gerald Junior | Uganda
+        <p class="footer-main">
+          &copy; <span id="currentyear"></span> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; TANG GERALD JUNIOR &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; UGANDA
         </p>
-        <p id="lastModified"></p>
-
-    </footer>
+        <p class="footer-sub" id="last-Modified">
+          
+        </p>
+      </footer>
+      
+      
     
 </body>
 </html>

@@ -1,0 +1,228 @@
+/* General Reset and Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: #f4f6f8;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Styles */
+header {
+  width: 100%;
+}
+
+/* Full-width background for h1 with centered narrow text */
+.header-title-wrapper {
+  background-color: #002855;
+}
+
+header h1 {
+  max-width: 600px; /* narrow centered h1 */
+  margin: 0 auto;
+  font-size: 1.3rem;
+  padding: 1.7rem 0;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+}
+.highlight-name {
+  color: #FFD700;
+}
+
+
+/* Full-width nav background, centered nav links */
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem 0;
+}
+
+/* Wrap for nav links to center and limit their width */
+nav > div {
+  display: flex;
+  gap: 1rem;
+  max-width: 900px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* Equal-width nav links */
+nav a {
+  flex: 1;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #004080;
+}
+
+
+/* Main Content Styling */
+main {
+  max-width: 1500px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.2fr 0.68fr; /* Left card wider than right */
+  gap: 0.9rem;
+  padding: 2rem;
+}
+
+/* Section Cards */
+.card {
+  background-color: #e6ecf2;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Uniform heading styles */
+.card h2 {
+  background-color: #002855;
+  color: white;
+  padding: 1rem;
+  margin: -1.5rem -1.5rem 1rem -1.5rem;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+
+/* About Me Section */
+
+.container {
+  display: grid;
+  grid-template-columns: 3.5fr 0.9fr;
+  gap: 2rem;
+}
+
+.container p{
+  line-height: 1.9;
+}
+
+.container h3.location-heading {
+  text-align: center;
+  margin: 2rem auto 1rem;
+  position: relative;
+  width: fit-content;
+}
+
+.container h3.location-heading::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.5rem;
+  height: 2px;
+  width: 350%;
+  background-color: #002855;
+  border-radius: 1px;
+}
+
+.sub-container {
+  display: grid;
+  grid-template-columns: 1fr 3.2fr;
+  gap: 1rem;
+  max-width: 600px;
+  width: 80%;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  align-items: center; /* centers flag vertically relative to text */
+}
+
+.official-flag {
+  text-align: center;
+  white-space: nowrap; /* Prevents line break */
+}
+
+.official-flag img {
+  width: 100%;
+  max-width: 240px; /* Increased width */
+  display: block;
+  margin: 0 auto;
+}
+
+.official-flag p {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 0.5rem;
+  white-space: nowrap; /* Keeps caption on one line */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.aboutUg p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.right img {
+  width: 150px;
+  height: 200px;
+}
+
+
+/* Web Dev Resources Section */
+.card ul {
+  margin-left: 2.5rem;
+  padding: 1rem 0;
+  margin-top: 4rem;
+}
+
+.card ul li {
+  padding: 0.5rem 0;
+  
+}
+
+.card ul li a {
+  color: #002855;
+  
+}
+
+.card ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  width: 100%;
+  background-color: #002855;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer-main {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0.3rem 0;
+}
+
+.footer-sub {
+  font-size: 0.9rem;
+  text-transform: lowercase;
+  opacity: 0.9;
+  margin: 0.2rem 0;
+}
+
+
+
+
