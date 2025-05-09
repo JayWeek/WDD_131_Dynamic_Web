@@ -159,12 +159,13 @@ main {
 
 .official-flag p {
   font-size: 0.85rem;
-  color: #555;
+  color: #222; /* improved contrast for AAA */
   margin-top: 0.5rem;
-  white-space: nowrap; /* Keeps caption on one line */
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 
 .aboutUg p {
   line-height: 1.6;
