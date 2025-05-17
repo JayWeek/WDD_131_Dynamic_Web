@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) {
+  /* Hide hamburger on larger screens */
+  .hamburger {
+    display: none;
+  }
+
+  /* Show nav horizontally on large screens */
+  .nav-bar ul {
+    display: flex !important;
+    flex-direction: row;
+    gap: 2.5rem;
+    margin-top: 0;
+  }
+
+  /* Align header and nav on the same line */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--bg-color);
+  }
+
+  /* Make sure nav-bar ul is horizontal */
+  .nav-bar li {
+    list-style: none;
+  }
+
+  /* Main images container using Grid */
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+
+  figure {
+    width: 100%;
+    margin: 0;
+  }
+}
