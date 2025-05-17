@@ -27,7 +27,7 @@
   }
 
   /* Main images container using Grid */
-  main {
+  .main-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
     gap: 1.5rem;
