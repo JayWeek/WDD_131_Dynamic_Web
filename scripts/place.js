@@ -28,7 +28,7 @@ if (lastModifiedEl) {
 }
 
 // Sample weather values (replace with live API data later)
-let temperatureValue = 10.1; // degrees Celsius
+let temperatureValue = 10; // degrees Celsius
 let conditionsValue = "Cloudy";
 let windValue = 30; // km/h
 
