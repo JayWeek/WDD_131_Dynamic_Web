@@ -28,9 +28,9 @@ if (lastModifiedEl) {
 }
 
 // Sample weather values (replace with live API data later)
-let temperatureValue = 10; // degrees Celsius
-let conditionsValue = "Cloudy";
-let windValue = 30; // km/h
+let temperatureValue = 23; // degrees Celsius
+let conditionsValue = "Partly Cloudy";
+let windValue = 8.3; // km/h
 
 // One-liner function to calculate wind chill
 const calculateWindChill = (t, w) => `${(13.12 + 0.6215 * t - 11.37 * Math.pow(w / 3.6, 0.16) + 0.3965 * t * Math.pow(w / 3.6, 0.16)).toFixed(1)} °C`;
