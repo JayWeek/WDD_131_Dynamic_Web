@@ -1,0 +1,82 @@
+@media (min-width: 1024px){
+    /* STYLE FOR THE MAIN CONTAINER */
+  .container {
+    position: relative;
+    height: 570px;
+  }
+
+  /*###################### STYLE FOR WEATHER################ */
+  .overlay.weather {
+    position: absolute;
+    top: 22rem;
+    right: 2rem;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 250px;
+  }
+
+  /* Diving board effect for h2 */
+  .overlay.weather h2 {
+    background-color: var(--nature-earth, #8B5E3C); /* fallback color */
+    color: white;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    position: relative;
+    left: -1rem; /* make it stick out to the left */
+    width: calc(100% + 1rem); /* stretch it a bit wider */
+    text-align: left;
+  }
+
+  /* Center align content inside weather box */
+  .weather-content {
+    gap: 0.4rem;
+  }
+
+  /* Style the weather h2 icon and text */
+  .overlay.weather h2 {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  /* Make sure the emoji is always shown, and text is conditionally shown */
+  .overlay.weather h2 span.label-text {
+    display: inline;
+  }
+
+  /*###################### STYLE FOR DATA OVERLAY ########################## */
+  .overlay.data {
+    position: absolute;
+    top: 2.5rem;
+    left: 2rem;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 250px;
+  }
+
+  /* "Diving board" label */
+  .overlay.data h2 {
+    background-color: var(--nature-green, #2F6135); /* forest green */
+    color: white;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    position: relative;
+    left: -1rem; /* stick out to the left */
+    width: calc(100% + 1rem);
+    text-align: left;
+  }
+
+  .svg-icon{
+    display: none;
+  }
+
+  .weather-icon{
+    display: block;
+  }
+}
+
+

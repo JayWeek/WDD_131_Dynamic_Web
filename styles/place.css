@@ -1,0 +1,241 @@
+:root {
+  --nature-green: #2F6135;        /* Deep forest green */
+  --nature-sky: #87C4ED;          /* Clear sky blue */
+  --nature-earth: #8B5E3C;        /* Warm earth brown */
+  --nature-leaf: #A9D18E;         /* Soft leafy green */
+  --nature-water: #4A90E2;        /* Lake Victoria blue */
+  --nature-bg: #FAFAF7;           /* Soft neutral background */
+  --nature-text: #1C1C1C;         /* Rich dark grey for readability */
+}
+
+body{
+  margin: 0;
+}
+
+
+
+
+/* STYLE FOR THE HEADER */
+header {
+  background-color: var(--nature-earth); /* earthy brown */
+  color: white;
+  padding: .2rem 2rem .7rem 2rem;  /* keep bottom padding normal */
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+}
+
+header h1 {
+  margin: 0.3rem 0;
+  font-weight: 600;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+/* Separate full-width green separator below the header */
+.separator {
+  width: 100%;
+  height: 10px;  /* not too tall */
+  background-color: var(--nature-green); /* full green bar */
+  margin: 0;  /* no margin so it touches edges */
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.separator.brown{
+  background-color: var(--nature-earth); /* full brown bar */
+}
+
+.separator.thin{
+  margin-top: 1.5rem;
+  height: 1px;
+  background-color: var(--nature-earth); /* full brown bar */
+}
+
+
+
+/* STYLE FOR THE MAIN CONTAINER */
+.container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+
+/*###################### STYLE FOR WEATHER################ */
+.overlay.weather {
+  margin: 0 auto;
+  top: 1.5rem;
+  padding: 1rem;
+  width: 250px;
+  margin-bottom: 2rem;
+}
+
+
+.overlay.weather h2 {
+  display: block; /* Undo flex */
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.svg-icon {
+  display: block;             /* Makes it respect margin auto */
+  margin: 1rem auto;          /* Centers horizontally with spacing */
+  width: 120px;                /* Adjust this size as needed */
+  height: auto;               /* Maintain aspect ratio */
+  margin-bottom: 2rem;
+}
+
+
+.weather-icon {
+  display: none; /* Hide on small screens */
+}
+
+
+/* Center align content inside weather box */
+.weather-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Flex row setup for label and value */
+.weather-content .row {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+/* Shared style for both columns */
+.weather-content .row p {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+  flex-basis: 48%;
+}
+
+/* Left column */
+.weather-content .row p:first-child {
+  text-align: right;
+  font-weight: bold;
+  color: var(--nature-text);
+}
+
+/* Right column */
+.weather-content .row p:nth-child(2),
+.weather-content .row p:last-child {
+  text-align: left;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+
+
+/* Make sure the emoji is always shown, and text is conditionally shown */
+.overlay.weather h2 span.label-text {
+  display: inline;
+}
+
+/*###################### STYLE FOR DATA OVERLAY ########################## */
+.overlay.data {
+  margin: 0 auto;
+  top: 1.5rem;
+  padding: 1rem;
+  width: 250px;
+}
+
+/* "Diving board" label */
+.overlay.data h2 {
+  color: black;
+  padding: 0.5rem 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+
+/* Two-column layout for data content */
+.data-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.data-content .row {
+  display: flex;
+  justify-content: flex-start;
+  gap: .5rem;
+  width: 100%;
+}
+
+.data-content .row p {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+  flex-basis: 48%;
+}
+
+.data-content .row p:first-child {
+  text-align: right;
+  font-weight: bold;
+  color: var(--nature-text);
+ 
+}
+
+.data-content .row p:nth-child(2) {
+  text-align: left;
+  color: #333; /* or any color you want */
+  font-size: 1.1rem;
+}
+
+.data-content .row p:last-child {
+  text-align: left;
+}
+
+.data-content p {
+  margin: 0.3rem 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+}
+
+
+/*###################### FOOTER STYLING ############### */
+footer {
+  background-color: var(--nature-earth); /* Matches weather h2 background */
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.95rem;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer .footer-main {
+  margin: 0.5rem 0;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+footer .footer-sub {
+  font-size: 0.85rem;
+  opacity: 0.85;
+  margin: 0.3rem 0;
+}
+
+  
+
+
+

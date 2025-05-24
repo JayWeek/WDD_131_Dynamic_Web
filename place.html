@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uganda - Inspired Design</title>
+  <link rel="stylesheet" href="styles/place.css"/>
+  <link rel="stylesheet" href="styles/place-large.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+
+
+<body>
+
+  <header>
+    <h1>Uganda</h1>
+  </header>
+  <div class="separator"></div>
+
+  <main>
+    <div class="container">
+      <picture>
+        <!-- For small screens -->
+        <source srcset="images/small-hero.webp" media="(max-width: 640px)" />
+
+        <!-- For medium and larger screens -->
+        <source srcset="images/large-hero.webp" media="(min-width: 641px)" />
+
+        <!-- Fallback -->
+        <img 
+          src="images/large-hero.webp" 
+          alt="Hero Image"
+          class="hero-image"
+        />
+      </picture>
+      <div class="separator brown"></div>
+
+
+      <div class="overlay data">
+        <h2>Data</h2>
+        <section class="data-content">
+          <div class="row">
+            <p><strong>Area:</strong></p>
+            <p>587041 sq km</p>
+          </div>
+          <div class="row">
+            <p><strong>Population:</strong></p>
+            <p>27,691,018</p>
+          </div>
+          <div class="row">
+            <p><strong>Capital:</strong></p>
+            <p>Kampala</p>
+          </div>
+          <div class="row">
+            <p><strong>Languages:</strong></p>
+            <p>English</p>
+          </div>
+          <div class="row">
+            <p><strong>Currency:</strong></p>
+            <p>Shillings</p>
+          </div>
+          <div class="row">
+            <p><strong>Time Zone:</strong></p>
+            <p>UTC+3</p>
+          </div>
+          <div class="row">
+            <p><strong>Calling Code:</strong></p>
+            <p>+256</p>
+          </div>
+          <div class="row">
+            <p><strong>Internet TLD:</strong></p>
+            <p>.mg</p>
+          </div>
+        </section>
+      </div>
+      <div class="separator thin"></div>
+
+      <div class="overlay weather">
+        <h2>
+          <span class="label-text">Weather</span>
+          <span class="weather-icon">⛅</span>
+        </h2>
+        <img src="images/rainy-day.svg" class="svg-icon" alt="Weather icon">
+
+        <section class="weather-content">
+          <div class="row">
+            <p><strong>Temperature:</strong></p>
+            <p id="temperature"></p>
+          </div>
+          <div class="row">
+            <p><strong>Conditions:</strong></p>
+            <p id="conditions"></p>
+          </div>
+          <div class="row">
+            <p><strong>Wind:</strong></p>
+            <p id="wind"></p>
+          </div>
+          <div class="row">
+            <p><strong>Windchill:</strong></p>
+            <p id="windchill"></p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-main">
+      &copy; <span id="currentyear"></span> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;🥷 TANG GERALD JUNIOR 🥷&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; UGANDA
+    </p>
+    <p class="footer-sub" id="last-Modified"></p>
+  </footer>
+
+
+</body>
+</html>
