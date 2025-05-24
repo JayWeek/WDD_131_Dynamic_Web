@@ -7,13 +7,10 @@
   --nature-bg: #FAFAF7;           /* Soft neutral background */
   --nature-text: #1C1C1C;         /* Rich dark grey for readability */
 }
-
 body{
   margin: 0;
+  font-family: 'Roboto', sans-serif; 
 }
-
-
-
 
 /* STYLE FOR THE HEADER */
 header {
@@ -21,10 +18,9 @@ header {
   color: white;
   padding: .2rem 2rem .7rem 2rem;  /* keep bottom padding normal */
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif; 
   font-size: 1.2rem;
 }
-
 header h1 {
   margin: 0.3rem 0;
   font-weight: 600;
@@ -234,8 +230,4 @@ footer .footer-sub {
   opacity: 0.85;
   margin: 0.3rem 0;
 }
-
-  
-
-
 

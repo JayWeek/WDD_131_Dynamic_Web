@@ -1,4 +1,16 @@
 @media (min-width: 1024px){
+  .overlay.data h2, .overlay.weather h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+
+  .overlay.data h2::after, .overlay.weather h2::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: var(--nature-text);
+    margin-top: 0.5rem;
+  }
     /* STYLE FOR THE MAIN CONTAINER */
   .container {
     position: relative;
