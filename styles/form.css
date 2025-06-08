@@ -24,7 +24,7 @@ html {
 /*----------- BODY --------------*/
 body {
   font-size: 16px;
-  font-family: Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--off-white);
   color: var(--dark-charcoal);
   margin: 0;
