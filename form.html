@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="A form for users to review products.">
+<meta name="author" content="Tang Gerald">
+<title>Product Review Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="styles/form-small.css">
+<script src="scripts/form.js" defer></script>
+</head>
+<body>    
+<main>
+    <h1>Product Review</h1>
+    <div class="wf1-wrapper">
+        <form method="get" action="review.html" class="wf1">
+            <!-- Product Name -->
+            <label for="product">Product Name:</label>
+            <select id="product" name="product" required>
+            </select>
+            <fieldset>
+                <legend>Overall Rating</legend>
+                <div class="rating-stars">
+                    <label>
+                    <div class="star">☆</div>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    </label>
+                    <label>
+                    <div class="star">☆☆</div>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    </label>
+                    <label>
+                    <div class="star">☆☆☆</div>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    </label>
+                    <label>
+                    <div class="star">☆☆☆☆</div>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    </label>
+                    <label>
+                    <div class="star">☆☆☆☆☆</div>
+                    <input type="radio" id="star5" name="rating" value="5">
+                    </label>
+                </div>
+        </fieldset>
+
+
+            <!-- Date of Installation -->
+            <label for="installDate">Date of Installation:</label>
+            <input type="date" id="installDate" name="installDate" required>
+
+            <fieldset>
+                <div>Which features did you find useful in the product?</div>
+                <div>(check all that apply)</div>
+                <label> <input type="checkbox" name="editing" value="yes">Durability</label>
+                <label> <input type="checkbox" name="code" value="yes">Ease of use</label>
+                <label> <input type="checkbox" name="process" value="yes">Performance</label>
+                <label> <input type="checkbox" name="client" value="yes">Design</label>
+            </fieldset>
+
+            <!-- Written Review -->
+            <label for="review">Written Review:</label><br>
+            <textarea id="review" name="review" rows="5" cols="40" placeholder="Write your review here..."></textarea>
+            <br><br>
+
+            <!-- User Name -->
+            <label for="username">Your Name:</label>
+            <input type="text" id="username" name="username" placeholder="Optional">
+            <br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit Review">
+        </form>
+    </div>
+          
+    </main>
+    <footer>
+        <p class="footer-main">
+        &copy; <span id="currentyear"></span> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;🥷 TANG GERALD JUNIOR 🥷&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; UGANDA
+        </p>
+        <p class="footer-sub" id="last-Modified"></p>
+    </footer>
+</body>
+</html>

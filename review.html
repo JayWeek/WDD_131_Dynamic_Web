@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you</title>
+</head>
+<body>
+    <h1>Thanks for your review!</h1>
+    <p id="reviewMessage"></p>
+
+    <script>
+        let reviewCount = localStorage.getItem("reviewcount");
+        if (reviewCount === null) {
+            count = 0;
+        }
+        else{
+            reviewCount = parseInt(reviewCount);
+        }
+        reviewCount++
+        //save to storage
+        localStorage.setItem("reviewcount", reviewCount);
+        document.getElementById("reviewMessage").textContent = `You have submitted ${reviewCount} reviews`
+        // for resetting the review count
+        function resetReviewCount() {
+            localStorage.removeItem("reviewcount");
+            alert("Review counter has been reset.");
+        }
+    </script>
+</body>
+</html>
