@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
+  <diagram name="Page-1" id="_FvWvt4cjJNgiLIyqjLY">
+    <mxGraphModel dx="1281" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" width="680" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="680" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="360" width="680" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="160" y="580" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="390" y="580" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="590" y="580" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="750" width="680" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1040" width="680" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-10" value="Logo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-11" value="Home" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-12" value="Protect Your self" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="550" y="15" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-13" value="Resources" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-14" value="Start Your Journey to Cybersecurity Confidence" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="205" y="90" width="465" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-15" value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reiciendis pariatur nostrum amet natus asperiores minima voluptates corporis veritatis expedita delectus, perspiciatis dicta dolor neque laudantium autem. Ut, neque quo." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="150" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-16" value="Protect Yourself" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-17" value="Did You Know" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="377.5" y="370" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-18" value="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis eos, quaerat rem maxime quidem voluptates necessitatibus expedita unde blanditiis facere dolor architecto cum, quae eveniet sint eum atque maiores eligendi!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="297.5" y="400" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-19" value="What You will learn" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="347.49" y="535" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-20" value="Why It Matters" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="348.75" y="780" width="142.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-21" value="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum harum dolore velit iusto adipisci magnam nobis quibusdam cumque non recusandae architecto explicabo quisquam cupiditate necessitatibus, vero libero cum quis ipsam." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="306.87" y="820" width="261.25" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-22" value="FOOTER" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="407.5" y="1055" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-23" value="Password Security" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="167.5" y="700" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-24" value="Phishing Scams" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="397.5" y="700" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mgy-9qOJch3EJGo6zbQB-25" value="Safe browsing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="597.5" y="700" width="105" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

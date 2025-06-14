@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protect Yourself</title>
+    <meta name="description" content="You'll get to practice basic security tips to keep you even more secured.">
+    <meta name="author" content="Tang Gerald">
+    <link rel="stylesheet" href="styles/Protect.css">
+    <script src="scripts/Protect.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>CyberGuide101</p>
+        </div>
+        <div class="hamburger" aria-label="Menu" role="button" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="GuideHome.html">Home</a></li>
+                <li><a href="#">Protect Your self</a></li>
+                <li><a href="Resource.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="Protect-Yourself">
+            <h1>Protect Yourself Online</h1>
+            <p>Cyber threats are everywhere—but so are solutions.
+This page gives you quick, practical steps to stay safe online. From phishing scams and data breaches to weak passwords and unsafe Wi-Fi, the internet is full of risks. But you don’t need to be an expert to protect yourself. By following a few smart habits—like using strong passwords, updating your software, and thinking twice before clicking suspicious links—you can drastically reduce your chances of being hacked. Cybersecurity isn’t just for IT professionals; it starts with everyday actions you can take right now.</p>
+        </section>
+
+        <section id="checklist">
+            <h2>✅ Cyber Hygiene Checklist</h2>
+            <ul id="checklist-items">
+                <!-- JS will populate this -->
+            </ul>
+            <button id="save">💾 Save Progress</button>
+            <button id="clear">❌ Clear All</button>
+        </section>
+
+        <section class="threats">
+            <h2 class="headings">Common Cybersecurity Threats</h2>
+            <div class="threats-container">
+                
+                <div class="threat-card">
+                <img src="images/Phishing-scams.jpg" alt="Phishing icon" loading="lazy">
+                <p><strong>Phishing</strong> – Fraudulent messages designed to trick you into revealing sensitive information.</p>
+                </div>
+
+                <div class="threat-card">
+                <img src="images/malware.webp" alt="Malware icon" loading="lazy">
+                <p><strong>Malware</strong> – Malicious software that can damage or gain unauthorized access to your system.</p>
+                </div>
+
+                <div class="threat-card">
+                <img src="images/Ransomeware.png" alt="Ransomware icon" loading="lazy">
+                <p><strong>Ransomware</strong> – Locks you out of your data and demands payment to regain access.</p>
+                </div>
+
+                <div class="threat-card">
+                <img src="images/Password-Attacks-.jpg" alt="Password Attack icon" loading="lazy">
+                <p><strong>Password Attacks</strong> – Attempts to steal or crack your password to gain access to systems.</p>
+                </div>
+
+                <div class="threat-card">
+                <img src="images/social.webp" alt="Social Engineering icon" loading="lazy">
+                <p><strong>Social Engineering</strong> – Manipulating people into giving up confidential information.</p>
+                </div>
+
+                <div class="threat-card">
+                <img src="images/man-in-the-middle.webp" alt="Man-in-the-Middle icon" loading="lazy">
+                <p><strong>Man-in-the-Middle</strong> – Intercepting communications to steal or manipulate sensitive data.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="quiz">
+            <h2>🧪 Quick Quiz: Test Your Knowledge</h2>
+            <div id="quiz-container">
+                <!-- Question and choices will appear here -->
+            </div>
+            <button id="next-btn" class="quiz-btn">Next</button>
+        </section>
+
+        <section class="Cyber-tips">
+            <h2>Cyber Tips Slider</h2>
+            <div id="tips-container">
+
+            </div>
+            <button id="previous-tip">Previous></button>
+            <button id="next-tip">next></button>
+        </section>
+
+        <section class="explore">
+            <p class="btn"><a href="Resource.html">Tools & Resources</a></p>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-logo">CyberGuide101</div>
+
+            <div class="footer-info">
+                <div class="info-block">
+                    <h4>Why Security Matters</h4>
+                    <p>Cyberattacks happen every 39 seconds. Staying informed is your first defense.</p>
+                </div>
+                <div class="info-block">
+                    <h4>Quick Tip</h4>
+                    <p>Use strong, unique passwords and enable two-factor authentication wherever possible.</p>
+                </div>
+                <div class="info-block">
+                    <h4>More Resources</h4>
+                    <p><a href="Resource.html">Explore tools & guides</a> to protect your digital life.</p>
+                </div>
+            </div>
+
+            <p class="footer-copy">&copy; <span id="footer-year"></span> CyberAware. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

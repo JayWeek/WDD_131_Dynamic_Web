@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cybersecurity Resources</title>
+    <meta name="description" content="Find out more information on cyber safety to keep yourself more protected while surfing the web">
+    <meta name="author" content="Tang Gerald">
+    <link rel="stylesheet" href="styles/Resource.css">
+    <script src="scripts/Resource.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p>CyberGuide101</p>
+        </div>
+        <div class="hamburger" aria-label="Menu" role="button" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="GuideHome.html">Home</a></li>
+                <li><a href="Protect.html">Protect Yourself</a></li>
+                <li><a href="#" class="active">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="resources">
+            <h1 class="headings">Cybersecurity Resources</h1>
+            <p>Explore trusted tools, videos, and downloadable guides to level up your cybersecurity skills.</p>
+            <div class="resource-grid">
+                <!-- Cards will be injected by JavaScript -->
+            </div>
+        </section>
+
+        <section class="submit-resource">
+            <h2 class="headings">Suggest a Resource</h2>
+            <p>If you know a great cybersecurity resource, share it with us!</p>
+            <form id="resource-form" action="#" method="post">
+                <label for="name">Your Name (optional):</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe" />
+
+                <label for="email">Email (for follow-up):</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+                <label for="resourceTitle">Resource Title:</label>
+                <input type="text" id="resourceTitle" name="resourceTitle" placeholder="e.g., Cybersecurity Basics 101" required />
+
+                <label for="link">Resource Link (URL):</label>
+                <input type="url" id="link" name="link" placeholder="https://example.com" required />
+
+                <label for="type">Type of Resource:</label>
+                <select id="type" name="type" required>
+                    <option value="">-- Select Type --</option>
+                    <option value="video">Video</option>
+                    <option value="article">Article</option>
+                    <option value="tool">Tool</option>
+                    <option value="guide">Guide</option>
+                    <option value="podcast">Podcast</option>
+                </select>
+
+                <p>Would you recommend this resource to beginners?</p>
+                <label><input type="radio" name="recommend" value="yes" required> Yes</label>
+                <label><input type="radio" name="recommend" value="no"> No</label>
+
+                <label for="comments">Why is this resource helpful?</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Tell us why it's great..."></textarea>
+
+                <button type="submit">Submit Resource</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-logo">CyberGuide101</div>
+
+                <div class="footer-info">
+                    <div class="info-block">
+                        <h4>Why Security Matters</h4>
+                        <p>Cyberattacks happen every 39 seconds. Staying informed is your first defense.</p>
+                    </div>
+                    <div class="info-block">
+                        <h4>Quick Tip</h4>
+                        <p>Use strong, unique passwords and enable two-factor authentication wherever possible.</p>
+                    </div>
+                    <div class="info-block">
+                        <h4>More Resources</h4>
+                        <p><a href="Resource.html">Explore tools & guides</a> to protect your digital life.</p>
+                    </div>
+                </div>
+
+                <p class="footer-copy">&copy; <span id="footer-year"></span> CyberAware. All rights reserved.</p>
+            </div>
+    </footer>
+</body>
+</html>
