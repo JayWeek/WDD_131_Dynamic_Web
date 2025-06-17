@@ -26,6 +26,23 @@
     section {
         margin-bottom: 2rem;
     }
+    .wireframes {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: .5rem;
+      margin-top: .5rem;
+      align-items: center;
+    }
+
+    .wireframes img {
+      width: 300px;
+      height: auto;
+      border: 2px solid #8A6E54; /* optional warm beige border */
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      object-fit: contain;
+    }
+
     </style>
 
 
@@ -74,7 +91,10 @@
     </ul>
   </section>
 
-  <p>PS: The wireframes are in the project folder. Please use draw.io website to open them. Thank you.</p>
+  <section class="wireframes">
+    <img src="images/homepageWireframe.webp">
+    <img src="images/homepage-MobileWireframe.webp">
+  </section>
 
 </body>
 </html>
